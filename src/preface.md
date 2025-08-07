@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-This is an introductory guide to writing the software for a FIRST Tech Challenge robot within the MBHS Student Robotics Club.
+This is an introductory guide to writing the base software for a FIRST Tech Challenge robot within the MBHS Student Robotics Club.
 This quickstart is designed to assist new programmers in bootstrapping a robot configuration and simple configuration.
 
 ## BunyipsLib for Rookies
@@ -14,7 +14,7 @@ This guide is an introduction to setting up a robot's software, and bootstrappin
 for more advanced features. Be sure to read the [BunyipsLib Wiki](https://bunyipslib.wiki.bubner.me/) for BunyipsLib-specific and advanced operations.
 
 > [!IMPORTANT]
-> This guide is written as a basic bootstrap and quickstart for a BunyipsFTC robot using BunyipsLib. Hence, this guide is only valid for robots that use the REV Robotics Control Hub.
+> This guide is written as a basic bootstrap and quickstart for a BunyipsFTC robot using BunyipsLib. Hence, this guide is only valid for robots that use the REV Robotics Control Hub, and the extent of this guide is limited to simple TeleOp.
 
 This guide is ordered sequentially. Use the arrows on the side of the screen or the navbar on the left to progress through the quickstart.
 

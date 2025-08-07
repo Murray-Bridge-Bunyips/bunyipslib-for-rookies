@@ -32,7 +32,7 @@ In `onRuntime()`, add:
 protected void onRuntime() {
     // ...
 
-    hw.intake = getHardware("intake", DcMotor.class, (d) -> {
+    hw.intake = getHardware("intake", CRServo.class, (d) -> {
         // TODO: Set the direction of the intake motor here
         d.setDirection(DcMotorSimple.Direction.FORWARD);
     });

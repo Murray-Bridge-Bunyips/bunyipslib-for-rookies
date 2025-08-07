@@ -34,9 +34,9 @@ In `onRuntime()`, add:
 protected void onRuntime() {
     // ...
 
-    hw.servo = getHardware("servo", DcMotor.class, (d) -> {
+    hw.servo = getHardware("servo", Servo.class, (d) -> {
         // TODO: Set the direction of the servo here
-        d.setDirection(DcMotorSimple.Direction.FORWARD);
+        d.setDirection(Servo.Direction.FORWARD);
         // TODO: Scale your servo accordingly, or use methods attached to the Switch subsystem directly
         d.scaleRange(0, 1);
     });
