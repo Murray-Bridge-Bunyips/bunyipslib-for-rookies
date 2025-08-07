@@ -1,0 +1,7 @@
+[book]
+authors = ["Lucas Bubner"]
+language = "en"
+src = "src"
+title = "BunyipsLib for Rookies"
+
+[preprocessor.alerts]
