@@ -3,5 +3,11 @@ authors = ["Lucas Bubner"]
 language = "en"
 src = "src"
 title = "BunyipsLib for Rookies"
+description = "An introductory guide/quickstart for bootstrapping a BunyipsFTC robot using BunyipsLib."
+
+[output.html]
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/Murray-Bridge-Bunyips/bunyipslib-for-rookies"
+git-repository-icon = "fa-github"
 
 [preprocessor.alerts]
