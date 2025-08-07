@@ -5,7 +5,7 @@ The vertical lift is a very commonly used subsystem.
 Since a vertical lift will rely on an encoder-driven motor, the `HoldableActuator` subsystem will be used.
 
 > [!TIP]
-> Since `HoldableActuator` is designed to be as generic as possible, `HoldableActuator` can be used for any type of actuator that has a motor! (e.g. rotators, winches) 
+> Since `HoldableActuator` is designed to be as generic as possible, `HoldableActuator` can be used for any type of actuator that has a motor! (e.g. rotators, winches, double-jointed arm with one `HoldableActuator` per arm) 
 >
 > A vertical lift will be used as the example here.
 
@@ -35,7 +35,7 @@ public class Cubicle extends RobotConfig {
 > [!IMPORTANT]
 > By default, the vertical lift will be running the default PID controller.
 >
-> Configuring and tuning PID controllers are out of scope of this guide, and
+> Configuring PID controllers and the BunyipsLib-provided drop-in `Motor` class are out of scope of this guide, and
 > are better covered in the [IO section of the BunyipsLib Wiki](https://github.com/Murray-Bridge-Bunyips/BunyipsLib/wiki/IO).
 
 Finally, you need to initialise your hardware and subsystem. These are currently null.

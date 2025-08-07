@@ -14,5 +14,8 @@
 # Subsystems and control
 - [Adding more subsystems](./6/subsystems.md)
     - [Vertical lift](./6.1/lift.md)
+    - [Continuous spinning intake](./6.2/intake.md)
+    - [Single servo](./6.3/servo.md)
+    <!-- - [Double servo](./6.4/dualservo.md) -->
 
 # Implementing OpModes
