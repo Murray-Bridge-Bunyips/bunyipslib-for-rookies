@@ -3,7 +3,7 @@
 ## Welcome!
 
 This is an introductory guide to writing the base software for a FIRST Tech Challenge robot within the MBHS Student Robotics Club.
-This quickstart is designed to assist new programmers in bootstrapping a robot configuration and simple configuration.
+This quickstart is designed to assist new programmers in creating a robot configuration and simple TeleOp.
 
 ## BunyipsLib for Rookies
 
