@@ -54,7 +54,7 @@ Finally, press Ctrl+Shift+O which will sync Gradle and add your configuration to
 
 Return to Android view in the filesystem viewer. You should confirm that your robot appears in the Android view list now.
 
-Inside your new robot directory under `kotlin+java`, a `.gitkeep` file should exist. This is the directory where all of your robot code will go.
+Inside your new robot directory under `kotlin+java`, a `.gitkeep` file should exist. This `.gitkeep` file can be deleted. This is the directory where all of your robot code will go.
 
 ![](./gitkeep.png)
 
