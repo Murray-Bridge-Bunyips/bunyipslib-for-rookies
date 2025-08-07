@@ -4,4 +4,6 @@
 
 An introductory guide/quickstart for bootstrapping a BunyipsFTC robot using BunyipsLib.
 
+Built using [mdbook](https://rust-lang.github.io/mdBook/).
+
 ###### Copyright (c) 2025 Lucas Bubner, MBHS Student Robotics Club, under the MIT License.
