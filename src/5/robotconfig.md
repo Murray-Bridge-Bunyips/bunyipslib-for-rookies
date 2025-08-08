@@ -112,10 +112,27 @@ public class Cubicle extends RobotConfig {
      * Contains all hardware objects used for the robot.
      */
     public static class Hardware {
+        // TODO: Rewrite the comments above each hardware declaration to match your port and name configuration (e.g <Control/Expansion> <port>: <name in DS>)
+        //   It is strongly recommended to do this as hardware mappings may erase themselves unexpectedly.
+        /**
+         * Internally mounted on Control Hub I2C 0
+         */
         public IMU imu;
+        /**
+         * Control 0: fl
+         */
         public DcMotor fl;
+        /**
+         * Control 1: bl
+         */
         public DcMotor bl;
+        /**
+         * Control 2: br
+         */
         public DcMotor br;
+        /**
+         * Control 3: fr
+         */
         public DcMotor fr;
         // TODO: Add more hardware devices here according to your robot's configuration
     }
@@ -182,9 +199,23 @@ public class Cubicle extends RobotConfig {
      * Contains all hardware objects used for the robot.
      */
     public static class Hardware {
+        // TODO: Rewrite the comments above each hardware declaration to match your port and name configuration (e.g <Control/Expansion> <port>: <name in DS>)
+        //   It is strongly recommended to do this as hardware mappings may erase themselves unexpectedly.
+        /**
+         * Control 0: fl
+         */
         public DcMotor fl;
+        /**
+         * Control 1: bl
+         */
         public DcMotor bl;
+        /**
+         * Control 2: br
+         */
         public DcMotor br;
+        /**
+         * Control 3: fr
+         */
         public DcMotor fr;
         // TODO: Add more hardware devices here according to your robot's configuration
     }
@@ -271,8 +302,19 @@ public class Cubicle extends RobotConfig {
      * Contains all hardware objects used for the robot.
      */
     public static class Hardware {
+        // TODO: Rewrite the comments above each hardware declaration to match your port and name configuration (e.g <Control/Expansion> <port>: <name in DS>)
+        //   It is strongly recommended to do this as hardware mappings may erase themselves unexpectedly.
+        /**
+         * Internally mounted on Control Hub I2C 0
+         */
         public IMU imu;
+        /**
+         * Expansion 0: left
+         */
         public DcMotor left;
+        /**
+         * Expansion 1: right
+         */
         public DcMotor right;
         // TODO: Add more hardware devices here according to your robot's configuration
     }
@@ -333,7 +375,15 @@ public class Cubicle extends RobotConfig {
      * Contains all hardware objects used for the robot.
      */
     public static class Hardware {
+        // TODO: Rewrite the comments above each hardware declaration to match your port and name configuration (e.g <Control/Expansion> <port>: <name in DS>)
+        //   It is strongly recommended to do this as hardware mappings may erase themselves unexpectedly.
+        /**
+         * Expansion 0: left
+         */
         public DcMotor left;
+        /**
+         * Expansion 1: right
+         */
         public DcMotor right;
         // TODO: Add more hardware devices here according to your robot's configuration
     }
