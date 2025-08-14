@@ -18,5 +18,10 @@ for more advanced features. Be sure to read the [BunyipsLib Wiki](https://bunyip
 
 This guide is ordered sequentially. Use the arrows on the side of the screen or the navbar on the left to progress through the quickstart.
 
+## Additional resources
+- [Learn Java For FTC](https://github.com/alan412/LearnJavaForFTC/blob/master/LearnJavaForFTC.pdf), an introduction and tutorial for the base FTC SDK
+- [BunyipsLib Wiki](https://bunyipslib.wiki.bubner.me)
+- [BunyipsLib API docs](https://bunyipslib.api.bubner.me)
+
 -----------
 ###### BunyipsLib for Rookies. Copyright (c) 2025 Lucas Bubner, MBHS Student Robotics Club, under the MIT License.
