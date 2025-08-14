@@ -5,6 +5,9 @@ Setting up Android Studio is usually a one-time process. Android Studio is the i
 
 You will need a GitHub account with access to the Murray-Bridge-Bunyips organisation (or to use the `MBHSRobotics` shared account).
 
+For MBHS Student Robotics Club members, you can follow [this guide in the shared drive](https://docs.google.com/document/d/18iZ2eS7Tr0e4pBBBeyeKwgJa_2NdkLZIelezqBSOWug/edit?usp=sharing) to get your account set up. Note you will need a mentor to add you to the organisation
+and add your user to the `BunyipsFTC` GitHub team if not using the shared account.
+
 ## First-time setup
 For new laptops, you will need to `Clone Repository` of URL: `https://github.com/Murray-Bridge-Bunyips/BunyipsFTC`.
 
@@ -20,7 +23,7 @@ Open `Remote`, `origin`, `devid-heath` and click `Checkout`.
 
 ![](./devid.png)
 
-You are now on the development branch of BunyipsFTC.
+You are now on the development branch of BunyipsFTC. You can now Commit and Push your changes from Android Studio to upload them to the cloud.
 
 ## Configuring BunyipsLib
 Before you proceed with programming, you will also need to change to the latest commit (master branch) of BunyipsLib.
