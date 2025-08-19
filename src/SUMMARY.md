@@ -4,6 +4,7 @@
 
 # Setting up your computer
 - [Configuring Android Studio](./1/android-studio.md)
+    - [Gradle and Git extras](./1.1/studio-extras.md)
 - [Wirelessly connecting to the robot](./2/wireless.md)
     - [Deploying your code](./2.1/building.md)
 
