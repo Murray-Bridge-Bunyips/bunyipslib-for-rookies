@@ -90,6 +90,12 @@ double rotation = -gamepad1.right_stick_x;
 robot.drive.setPower(Geometry.vel(forward, strafe, rotation));
 ```
 
+You will need to add the import statement:
+```java
+import au.edu.sa.mbhs.studentrobotics.bunyipslib.util.Geometry;
+```
+which you can do through Android Studio by hovering over the red `Geometry` and clicking `Import class`.
+
 ### Commanding a lift
 The standard lift controls is that an analog stick is used to power the motor in either direction, with idle being stationary.
 
