@@ -8,7 +8,8 @@ Sloth Loads (if implemented) can be selected as well from this list.
 
 **You should see "REV Robotics Control Hub" (or similar) to the left of the selector box.**
 
-When it is time to deploy, press the green play button.
+When it is time to deploy, press the green play button. The play button may also be a green "refresh" button,
+but it is the one to the left of the green bug.
 
 ![](./run.png)
 
