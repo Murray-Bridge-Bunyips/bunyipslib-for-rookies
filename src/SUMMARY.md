@@ -20,3 +20,6 @@
     - [Single servo](./6.3/servo.md)
     - [Double servo](./6.4/dualservo.md)
 - [Writing an iterative TeleOp](./7/teleop.md)
+
+# Advanced extras
+- [AdvantageScope Lite quickstart](./8/as-lite.md)
