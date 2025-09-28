@@ -52,15 +52,17 @@ The RoadRunner `FlightRecorder` is used to record information to a log file. Thi
 > [!NOTE]
 > Reading logs back also works with AdvantageScope for desktop! However, this quickstart will use the web version on an active robot as accessing the log files is streamlined and automatic.
 
-BunyipsLib also provides a utility to "observe" certain components, using `Dashboard.observe(...)`. This will ensure the components provided are regularly sent to
-the `FlightRecorder`.
-
-This is the recommended way to log the status of a particular subsystem, where all that is required is to call `observe` once for your subsystems on initialisation. Review the BunyipsLib API docs for the `Dashboard.observe` method for more details.
-
 Several channels of information, including current pose data, are automatically sent to the `FlightRecorder` internally through the RoadRunner drive instances.
+BunyipsLib also automatically records the status and essential state of primary subsystems (e.g. `HoldableActuator`) to the log files.
+
+You are able to view these log schemas live through AdvantageScope and FtcDashboard by calling `Dashboard.logLiveSchema(...)`, and passing in the subsystems you want
+to view live for compatible subsystems. Drive subsystems are logged by default through the `Accumulator`.
 
 ## Replaying logs
-To replay a log, you can find ones on the robot Under File -> Open Logs.
+> [!TIP]
+> Log files can be accessed directly from the robot for local use by going to [**http://192.168.43.1:8080/logs**](http://192.168.43.1:8080/logs)! More info [here](https://rr.brott.dev/docs/v1-0/log-files/).
+
+To replay a log through AdvantageScope Lite, you can find ones on the robot Under File -> Open Logs.
 
 > [!WARNING]
 > The timestamp on the logs is dependent on the system clock on the Control Hub, which may be in the past, future, or completely inaccurate!
