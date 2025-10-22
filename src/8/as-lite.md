@@ -47,6 +47,9 @@ To visualise the position of the robot live, simply drag the "pose Pose" `Pose2d
 (Example image from the [AdvantageScope-Lite-FTC README](https://github.com/j5155/AdvantageScope-Lite-FTC/blob/main/FTCLite_Example.png))
 
 ## Recording information to logs
+> [!WARNING]
+> Logs will **not be generated** for OpModes that are started through FtcDashboard as the appropriate logging hooks won't be called. OpModes must be run from the Driver Station to capture logs.
+
 The RoadRunner `FlightRecorder` is used to record information to a log file. This log file can be read back and visualised later through AdvantageScope.
 
 > [!NOTE]
