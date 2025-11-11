@@ -103,7 +103,7 @@ public class Cubicle extends RobotConfig {
         MecanumGains mecanumGains = new MecanumGains.Builder()
                 // TODO: Fill out as necessary according to the RoadRunner Tuning section of the BunyipsLib Wiki
                 .build();
-        drive = new MecanumDrive(driveModel, motionProfile, mecanumGains, hw.fl, hw.bl, hw.br, hw.fr, hw.imu, hardwareMap.voltageSensor)
+        drive = new MecanumDrive(driveModel, motionProfile, mecanumGains, hw.fl, hw.bl, hw.br, hw.fr, hw.imu)
                 // TODO: Set Localizer/other parameters here (if required) according to the RoadRunner section of the BunyipsLib Wiki
                 .withName("Drive");
     }
@@ -293,7 +293,7 @@ public class Cubicle extends RobotConfig {
                 // TODO: Fill out as necessary according to the RoadRunner Tuning section of the BunyipsLib Wiki
                 .build();
         // TODO: Pass an Arrays.asList() instead of singletonList() with all left and right motors if you have more than one each
-        drive = new TankDrive(driveModel, motionProfile, tankGains, Collections.singletonList(hw.left), Collections.singletonList(hw.right), hw.imu, hardwareMap.voltageSensor)
+        drive = new TankDrive(driveModel, motionProfile, tankGains, Collections.singletonList(hw.left), Collections.singletonList(hw.right), hw.imu)
                 // TODO: Set Localizer/other parameters here (if required) according to the RoadRunner section of the BunyipsLib Wiki
                 .withName("Drive");
     }
