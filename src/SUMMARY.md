@@ -23,3 +23,5 @@
 
 # Advanced extras
 - [AdvantageScope Lite quickstart](./8/as-lite.md)
+
+[](./secret.md)

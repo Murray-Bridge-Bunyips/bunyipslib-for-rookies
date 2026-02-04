@@ -1,1 +1,12 @@
 <meta name="darkreader-lock">
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const rightButtons = document.getElementsByClassName("right-buttons")[0];
+        if (rightButtons && window.location.pathname === "/8/as-lite.html") {
+            const link = document.createElement("a");
+            link.href = "/secret.html";
+            link.className = "fa fa-warning icon-button";
+            rightButtons.append(link);
+        }
+    });
+</script>
